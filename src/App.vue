@@ -1,12 +1,16 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/products">產品列表</router-link> |
+    <router-link to="/cart">購物車</router-link>
   </div>
+  <button type="button" class="btn btn-primary">按鈕</button>
   <router-view/>
 </template>
 
 <style lang="scss">
+@import './assets/all';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
